@@ -6,7 +6,7 @@
 
     <groupId>com.songoda</groupId>
     <artifactId>EpicHeads</artifactId>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
 
     <name>EpicHeads</name>
     <description>Allows you and your players to search over 19,000 unique and artistic heads – Perfect for building immersive masterpieces.</description>
@@ -54,7 +54,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>com.craftaro.core</pattern>
-                                    <shadedPattern>com.songoda.epicheads.core</shadedPattern>
+                                    <shadedPattern>com.craftaro.epicheads.core</shadedPattern>
                                 </relocation>
                             </relocations>
 
@@ -125,7 +125,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.19.4-R0.1-SNAPSHOT</version>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
